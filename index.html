@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moon&Mocha</title>
+    <link rel="icon" href="img/logo.png">
+    <script src="./tailwind.min.js"></script>
+  </head>
+
+  <body
+    class="min-h-screen bg-gradient-to-b from-[#200016] to-[#10001f] font-sans text-white"
+  >
+    <header
+      class="fixed left-0 top-0 z-[100] flex w-full flex-col gap-4 px-5 py-5 md:flex-row md:items-center md:justify-between md:px-8"
+    >
+      <h2>
+        <a href="#home" class="text-3xl font-bold uppercase">Moon&Mocha</a>
+      </h2>
+
+      <ul class="flex list-none items-center gap-3 md:gap-8">
+        <li>
+          <a href="#home" class="rounded-full bg-white px-4 py-2 text-[#200016]"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#about"
+            class="rounded-full px-4 py-2 transition hover:bg-white hover:text-[#200016]"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="#visit"
+            class="rounded-full px-4 py-2 transition hover:bg-white hover:text-[#200016]"
+            >Visit</a
+          >
+        </li>
+        <li>
+          <a
+            href="#menu"
+            class="rounded-full px-4 py-2 transition hover:bg-white hover:text-[#200016]"
+            >Menu</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <section
+      id="home"
+      class="hero relative flex h-screen w-full items-center justify-center overflow-hidden after:absolute after:bottom-0 after:left-0 after:h-[100px] after:w-full after:bg-gradient-to-t after:from-[#200016] after:to-transparent"
+    >
+      <img
+        src="img/stars1.webp"
+        id="stars"
+        class="absolute h-screen w-full object-fill"
+        alt=""
+      />
+      <h2 class="mocha translate-y-[-200px] text-[25px] uppercase text-white">
+        M&M
+      </h2>
+      <img
+        src="img/moon2.webp"
+        id="moon"
+        class="absolute h-screen w-full object-fill mix-blend-screen"
+        alt=""
+      />
+      <img
+        src="img/mountains3.webp"
+        id="mountains3"
+        class="absolute h-screen w-full object-fill"
+        alt=""
+      />
+      <img
+        src="img/mountains4.webp"
+        id="mountains4"
+        class="absolute h-screen w-full object-fill"
+        alt=""
+      />
+      <img
+        src="img/river5.webp"
+        id="rivr"
+        class="absolute h-screen w-full object-fill"
+        alt=""
+      />
+      <img
+        src="img/boat6.webp"
+        id="boat"
+        class="absolute h-screen w-full object-fill"
+        alt=""
+      />
+      <img
+        src="img/mountains7.webp"
+        id="mountains7"
+        class="absolute h-screen w-full object-fill"
+        alt=""
+      />
+    </section>
+
+    <main>
+      <section
+        id="about"
+        class="mx-auto grid w-[min(1100px,calc(100%-40px))] items-center gap-11 py-20 md:grid-cols-2"
+      >
+        <div>
+          <span class="mb-2.5 block text-sm font-bold uppercase text-[#f6d7a7]"
+            >About us</span
+          >
+          <h2 class="text-[clamp(30px,5vw,48px)] leading-tight">
+            A cozy cafe for coffee, dinner, and late conversations.
+          </h2>
+        </div>
+
+        <p class="text-[#dfd2d8]">
+          Moon&Mocha serves espresso drinks, fresh pastries, sandwiches, and
+          simple restaurant plates in a calm night-inspired space. Come for
+          breakfast, lunch, or a relaxed evening table with friends.
+        </p>
+      </section>
+
+      <section
+        id="visit"
+        class="mx-auto grid w-[min(1100px,calc(100%-40px))] gap-[18px] pb-20 md:grid-cols-2"
+      >
+        <div class="group rounded-lg bg-[#27151d] p-7">
+          <span
+            class="mb-2.5 block text-sm font-bold uppercase text-[#f6d7a7] transition-all duration-300 group-hover:text-[15px] group-hover:text-[#a572ad]"
+            >Opening hours</span
+          >
+          <h2
+            class="mb-4 text-[clamp(30px,5vw,48px)] leading-tight transition-all duration-300 group-hover:text-[34px] group-hover:text-[#a572ad]"
+          >
+            Open every day
+          </h2>
+          <p
+            class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+          >
+            Sunday - Thursday: 8:00 AM - 11:00 PM
+          </p>
+          <p
+            class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+          >
+            Friday - Saturday: 9:00 AM - 12:00 AM
+          </p>
+        </div>
+
+        <div class="group rounded-lg bg-[#27151d] p-7" id="contact">
+          <span
+            class="mb-2.5 block text-sm font-bold uppercase text-[#f6d7a7] transition-all duration-300 group-hover:text-[15px] group-hover:text-[#a572ad]"
+            >Contact</span
+          >
+          <h2
+            class="mb-4 text-[clamp(30px,5vw,48px)] leading-tight transition-all duration-300 group-hover:text-[34px] group-hover:text-[#a572ad]"
+          >
+            Reserve a table
+          </h2>
+          <p
+            class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+          >
+            Phone: +963 000 000 000
+          </p>
+          <p
+            class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+          >
+            Address: Main Street, Damascus
+          </p>
+        </div>
+      </section>
+
+      <section id="menu" class="mx-auto w-[min(1100px,calc(100%-40px))] py-20">
+        <span class="mb-2.5 block text-sm font-bold uppercase text-[#f6d7a7]"
+          >Popular menu</span
+        >
+        <h2 class="text-[clamp(30px,5vw,48px)] leading-tight">
+          House favorites
+        </h2>
+
+        <div class="mt-8 grid gap-[18px] md:grid-cols-2">
+          <article
+            class="group flex min-h-[150px] justify-between gap-5 rounded-lg border border-[#f6d7a738] bg-[#211118] p-6"
+          >
+            <div>
+              <h3
+                class="mb-2 text-[22px] transition-all duration-300 group-hover:text-2xl group-hover:text-[#a572ad]"
+              >
+                Caramel Latte
+              </h3>
+              <p
+                class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+              >
+                Espresso, steamed milk, caramel, and a soft foam finish.
+              </p>
+            </div>
+            <strong
+              class="whitespace-nowrap text-xl text-[#f6d7a7] transition-all duration-300 group-hover:text-[22px] group-hover:text-[#a572ad]"
+              >$4.50</strong
+            >
+          </article>
+
+          <article
+            class="group flex min-h-[150px] justify-between gap-5 rounded-lg border border-[#f6d7a738] bg-[#211118] p-6"
+          >
+            <div>
+              <h3
+                class="mb-2 text-[22px] transition-all duration-300 group-hover:text-2xl group-hover:text-[#a572ad]"
+              >
+                Classic Burger
+              </h3>
+              <p
+                class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+              >
+                Grilled beef, cheddar, lettuce, tomato, and house sauce.
+              </p>
+            </div>
+            <strong
+              class="whitespace-nowrap text-xl text-[#f6d7a7] transition-all duration-300 group-hover:text-[22px] group-hover:text-[#a572ad]"
+              >$9.00</strong
+            >
+          </article>
+
+          <article
+            class="group flex min-h-[150px] justify-between gap-5 rounded-lg border border-[#f6d7a738] bg-[#211118] p-6"
+          >
+            <div>
+              <h3
+                class="mb-2 text-[22px] transition-all duration-300 group-hover:text-2xl group-hover:text-[#a572ad]"
+              >
+                Chicken Alfredo
+              </h3>
+              <p
+                class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+              >
+                Creamy pasta with grilled chicken, parmesan, and herbs.
+              </p>
+            </div>
+            <strong
+              class="whitespace-nowrap text-xl text-[#f6d7a7] transition-all duration-300 group-hover:text-[22px] group-hover:text-[#a572ad]"
+              >$11.50</strong
+            >
+          </article>
+
+          <article
+            class="group flex min-h-[150px] justify-between gap-5 rounded-lg border border-[#f6d7a738] bg-[#211118] p-6"
+          >
+            <div>
+              <h3
+                class="mb-2 text-[22px] transition-all duration-300 group-hover:text-2xl group-hover:text-[#a572ad]"
+              >
+                Chocolate Cake
+              </h3>
+              <p
+                class="text-[#dfd2d8] transition-all duration-300 group-hover:text-[17px] group-hover:text-[#a572ad]"
+              >
+                Dark chocolate sponge with cream and cocoa topping.
+              </p>
+            </div>
+            <strong
+              class="whitespace-nowrap text-xl text-[#f6d7a7] transition-all duration-300 group-hover:text-[22px] group-hover:text-[#a572ad]"
+              >$5.25</strong
+            >
+          </article>
+        </div>
+
+        <a
+          href="#orderForm"
+          class="mx-auto mt-8 block w-fit rounded-full border border-[#f6d7a759] bg-[#27151d] px-8 py-3 font-bold text-[#f6d7a7] transition-all duration-300 hover:-translate-y-1 hover:border-[#a572ad] hover:bg-[#a572ad] hover:text-white"
+          id="orderButton"
+          >Order Now</a
+        >
+
+        <form
+          class="mt-7 hidden max-w-[520px] grid-cols-1 gap-3.5 rounded-lg border border-[#f6d7a738] bg-[#211118] p-6 mx-auto"
+          id="orderForm"
+        >
+          <h3 class="text-center text-2xl text-[#f6d7a7]">Place your order</h3>
+
+          <input
+            type="text"
+            id="customerName"
+            class="w-full rounded-lg border border-[#f6d7a740] bg-[#10001f] px-3.5 py-3 text-white outline-none focus:border-[#a572ad]"
+            placeholder="Your name"
+          />
+          <input
+            type="tel"
+            id="customerPhone"
+            class="w-full rounded-lg border border-[#f6d7a740] bg-[#10001f] px-3.5 py-3 text-white outline-none focus:border-[#a572ad]"
+            placeholder="Phone number"
+          />
+
+          <select
+            id="orderItem"
+            class="w-full rounded-lg border border-[#f6d7a740] bg-[#10001f] px-3.5 py-3 text-white outline-none focus:border-[#a572ad]"
+          >
+            <option value="">Choose your order</option>
+            <option value="Caramel Latte">Caramel Latte</option>
+            <option value="Classic Burger">Classic Burger</option>
+            <option value="Chicken Alfredo">Chicken Alfredo</option>
+            <option value="Chocolate Cake">Chocolate Cake</option>
+          </select>
+
+          <input
+            type="number"
+            id="orderQuantity"
+            class="w-full rounded-lg border border-[#f6d7a740] bg-[#10001f] px-3.5 py-3 text-white outline-none focus:border-[#a572ad]"
+            placeholder="Quantity"
+            min="1"
+          />
+          <button
+            type="submit"
+            class="rounded-full border border-[#f6d7a759] bg-[#27151d] px-5 py-3 font-bold text-[#f6d7a7] transition-all duration-300 hover:-translate-y-1 hover:border-[#a572ad] hover:bg-[#a572ad] hover:text-white"
+          >
+            Submit Order
+          </button>
+          <p
+            class="min-h-[22px] text-center font-bold text-[#f6d7a7]"
+            id="orderMessage"
+          ></p>
+        </form>
+      </section>
+    </main>
+    <script src="proj.js"></script>
+  </body>
+</html>
